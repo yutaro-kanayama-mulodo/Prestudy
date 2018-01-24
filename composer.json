@@ -1,0 +1,15 @@
+{
+    "name": "SaigonTest/Ci",
+    "autoload": {
+        "psr-4": {
+            "UnitTest\\Sample\\": "src/app"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*.*",
+        "phake/phake": "2.*",
+        "facebook/webdriver": "*"
+    }
+}
